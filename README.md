@@ -14,6 +14,7 @@
 
 ## 3. 地图数据中的问题
 我将下载后的 `shenzhen.osm` 通过 `make_a_sample.py` 代码，转换为一个小型的 `sample.osm` 文件，对数据进行审查,必要时对原数据进行审查。
+
 1.街道名称不统一
 通过`street_names.py`查看`shenzhen.osm`中的街道地址时，发现街道地址描述标准不一，有中文，如南山大道、公园路等，也有英文San Hong Street、San Fung Avenue等，以及中文+英文。由于结果显示了较多的地址名字描述不一致的情形，因此暂时不处理地址描述问题。
 
